@@ -1,0 +1,553 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#mainDiv{
+    width: 100%;
+    min-height: 50px;
+    /* background: red; */
+}
+/* -------------------------------------=============================Header Baslangic=============================------------------------------------- */
+
+#mainDiv #header{
+    width: 100%;
+    height: 70px;
+    background: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+#mainDiv #header #part1{
+    width: 834.5px;
+    height: 80px;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    align-items: center;
+}
+
+#mainDiv #header #part1 img{
+    position: absolute;
+    left: 200px;
+}
+
+#mainDiv #header #part2{
+    width: 834.5px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#mainDiv #header #part2 ul{
+    display: flex;
+    list-style: none;
+}
+#mainDiv #header #part2 ul li{
+    margin-left: 50px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#mainDiv #header #part2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;   
+}
+
+#mainDiv #header #part2 ul li:hover{
+    background: black;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#mainDiv #header #part2 #cart{
+    width: 45px;
+    height: 30px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 30px;    
+    cursor: pointer;
+}
+
+#mainDiv #header #part2 #cart i{
+    color: white;
+}
+
+/* -------------------------------------=============================Header Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Content Welcome Baslangic=============================------------------------------------- */
+
+#mainDiv #overlay{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.673));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#mainDiv #content_w{
+    width: 100%;
+    height: 600px;
+    background-image: url("../imgs/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#mainDiv #content_w #overlay #container_o{
+    width: 1300px;
+    height: 400px;
+    /* background: red; */
+    position: relative;
+    left: 30px;
+}
+
+#mainDiv #content_w #overlay #container_o h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 62px;
+}
+
+#mainDiv #content_w #overlay #container_o p{
+    margin-top: -40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    transition: 0.3s;
+}
+
+#mainDiv #content_w #overlay #container_o #shop_m{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: 0.3s;
+    /* background-color: black; */
+}
+
+#mainDiv #content_w #overlay #container_o #shop_m a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#mainDiv #content_w #overlay #container_o #shop_m a:hover{
+    color: black;
+}
+
+#mainDiv #content_w #overlay #container_o #shop_m:hover{
+    background-color: white;
+    border: 2px solid transparent;
+}
+/* -------------------------------------=============================Content Welcome Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Content Main Baslangic=============================------------------------------------- */
+
+/* -------------------------------------=============================Boxes Baslangic=============================------------------------------------- */
+
+#mainDiv #content_main #boxes{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#mainDiv #content_main #boxes #container_b{
+    width: 1300px;
+    height: 600px;
+    /* background: black; */
+    position: relative;
+    margin-top: 250px;
+    box-sizing: border-box;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mainDiv #content_main #boxes #container_b #box1,#box2,#box3{
+    width: 370px;
+    height: 370px;
+    background-color: #222222;
+    border-radius: 5px;
+}
+
+#mainDiv #content_main #boxes #container_b #part1_box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background: palevioletred; */
+    color: white;
+    font-size: 40px;
+    font-family: Sen, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#mainDiv #content_main #boxes #container_b #part2_box{
+    width: 100%;
+    height: 180px;
+    /* background: black; */
+    color: white;
+    font-size: 43px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    font-family: Sen, sans-serif;
+}
+
+#mainDiv #content_main #boxes #container_b #part3_box{
+    width: 100%;
+    height: 90px;
+    /* background-color: purple; */
+}
+
+#mainDiv #content_main #boxes #container_b #part3_box #circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid white;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    left: 320px;
+    top: 400px;
+}
+
+#mainDiv #content_main #boxes #container_b #text_1{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    font-family: Sen, sans-serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* -------------------------------------=============================Boxes Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Covid 19 Baslangic=============================------------------------------------- */
+
+#mainDiv #content_main #covid_19{
+    width: 100%;
+    height: 600px;
+    background-image: url("../imgs/bg_2.jpg");
+    position: relative;
+    top: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+#mainDiv #content_main #covid_19 #overlay_2{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 0.673));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #content_main #covid_19 #overlay_2 #container_covid{
+    width: 1300px;
+    height: 300px;
+    /* background-color: black; */
+    text-align: right;
+    color: white;
+    font-family: sans-serif;
+}
+
+#mainDiv #content_main #covid_19 #overlay_2 #container_covid h1{
+    font-size: 46px;
+}
+
+#mainDiv #content_main #covid_19 #overlay_2 #container_covid p{
+    font-size: 20px;
+    margin-top: -20px;
+    color: #F9ECC4;
+    line-height: 1.3;
+    
+}
+
+#mainDiv #content_main #covid_19 #overlay_2 #container_covid a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background: white;
+    transition: 0.3s;
+}
+
+#mainDiv #content_main #covid_19 #overlay_2 #container_covid a:hover{
+    color: white;
+    background: #EB5757;
+}
+
+/* -------------------------------------=============================Covid 19 Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Shop Baslangic=============================------------------------------------- */
+#mainDiv #content_main #shop{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+    /* background-color: black; */
+}
+
+#mainDiv #content_main #shop #container_shop{
+    width: 1300px;
+    height: 750px;
+    /* background-color: purple; */
+}
+#mainDiv #content_main #shop #container_shop #con_shop_top{
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------=============================Shop Top Baslangic=============================------------------------------------- */
+
+#mainDiv #content_main #shop #container_shop #con_shop_top #part1_shop,#part2_shop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_top #part1_shop p{
+    position: relative;
+    top: -10px;
+    font-family: sans-serif;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_top #part2_shop h1{
+    position:relative;
+    left: -651px;
+    top: -10px;
+    color: #333333;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* -------------------------------------=============================Shop Top Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Shop Photos Baslangic=============================------------------------------------- */
+#mainDiv #content_main #shop #container_shop #con_shop_bottom{
+    width: 100%;
+    height: 600px;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_bottom #photo1,#photo2,#photo3{
+    width: 400px;
+    height: 500px;
+    background-color: wheat;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_bottom #photo1{
+    background-image: url(../imgs/photo_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_bottom #photo2{
+    background-image: url(../imgs/photo_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_bottom #photo3{
+    background-image: url(../imgs/photo_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mainDiv #content_main #shop #container_shop #con_shop_bottom button{
+    width: 100px;
+    height: 50px;
+}
+
+#mainDiv #content_main #shop #container_shop #buy_more{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#mainDiv #content_main #shop #container_shop #buy_more button{
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    background: black;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+#mainDiv #content_main #shop #container_shop #buy_more button:hover{
+    background: #EB5757;
+    cursor: pointer;
+}
+
+/* -------------------------------------=============================Shop Photos Bitis=============================------------------------------------- */
+
+/* -------------------------------------=============================Shop Local Baslangic=============================------------------------------------- */
+
+#mainDiv #content_main #shop_local{
+    width: 100%;
+    height: 700px;
+    /* background-color: #000; */
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #content_main #shop_local #container_local{
+    width: 1200px;
+    height: 500px;
+    /* background: #333; */
+    display: flex;
+}
+
+#mainDiv #content_main #shop_local #container_local #part1_local{
+    width: 400px;
+    height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #content_main #shop_local #container_local #part1_local #img_local{
+    width: 300px;
+    height: 400px;
+    background-image: url("../imgs/qadin_hero.jpg");
+    position: relative;
+    left: 30px;
+    z-index: 5;
+    border-radius: 5px;
+    background-position: 69% 80%;
+    background-size: 270%;
+}
+
+#mainDiv #content_main #shop_local #container_local #part2_local{
+    width: 1400px;
+    height: 500px;
+    position: relative;
+    left:-130px;
+    background: #222222;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #content_main #shop_local #container_local #part2_local #text_local{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    /* background: red; */
+    display: flex;
+    justify-content: left;
+}
+
+#mainDiv #content_main #shop_local #container_local #part2_local #text_local h1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 43px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#mainDiv #content_main #shop_local #container_local #part2_local #text_local p{
+    position: absolute;
+    top: 100px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#mainDiv #footer{
+    width: 100%;
+    height: 130px;
+    background-color: #333;
+    position: relative;
+    top: 350px;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+}
+
+#mainDiv #footer #created_text{
+    width: 100%;
+    height: 130px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+#kv{
+    width: 75px;
+    border: 10px solid white;
+    height: 75px;
+    position: absolute;
+    right: 15px;
+    border-bottom: 0px;
+    border-right: 0px;
+    top: 400px;
+}
